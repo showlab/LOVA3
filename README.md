@@ -54,6 +54,18 @@ The training data for our LOVA3 model includes tasks such as VQA, GenQA, and Eva
 
 Here we provide the training/Evaluation/Testing sets under the folder `EvalQABench`.
 
+### Image Datasets
+
+Please download the images from constituting datasets:
+
+- COCO: [train2014](http://images.cocodataset.org/zips/train2014.zip)
+- GQA: [images](https://downloads.cs.stanford.edu/nlp/data/gqa/images.zip)
+- OCR-VQA: [download script](https://drive.google.com/drive/folders/1_GYPY5UkUy7HIcR0zq3ZCFgeZN7BAfm_?usp=sharing), **we save all files as `.jpg`**
+- AOKVQA: [download script](https://github.com/allenai/aokvqa?tab=readme-ov-file#downloading-the-dataset)
+- TextVQA: [train_val_images](https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip)
+- VisualGenome: [part1](https://cs.stanford.edu/people/rak248/VG_100K_2/images.zip), [part2](https://cs.stanford.edu/people/rak248/VG_100K_2/images2.zip)
+- LLaVA-Instruct: [huggingface](https://huggingface.co/datasets/liuhaotian/LLaVA-Instruct-150K)
+
 
 ## Evaluation
 
