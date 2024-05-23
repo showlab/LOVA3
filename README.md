@@ -50,7 +50,7 @@ pip install -e .
 
 ## Training Data
 
-The training data for our LOVA3 model includes tasks such as VQA, GenQA, and EvalQA. The whole dat file is over 1GB in size, and we will release it on HuggingFace. 
+We will release it on HuggingFace. 
 
 Here we provide the training/Evaluation/Testing sets under the folder `EvalQABench`.
 
