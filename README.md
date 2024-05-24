@@ -1,6 +1,6 @@
 # LOVA3: Learning to Visual Question Answering, Asking and Assessment
 
-[Hengyuan Zhao](https://github.com/zhaohengyuan1),  [Pan Zhou](https://panzhous.github.io), [Difei Gao](https://scholar.google.com/citations?user=No9OsocAAAAJ&hl=en) and [Mike Zheng Shou](https://sites.google.com/view/showlab)
+[Henry Hengyuan Zhao](https://github.com/zhaohengyuan1),  [Pan Zhou](https://panzhous.github.io), [Difei Gao](https://scholar.google.com/citations?user=No9OsocAAAAJ&hl=en) and [Mike Zheng Shou](https://sites.google.com/view/showlab)
 
 ## Abstract
 
