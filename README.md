@@ -61,7 +61,7 @@ git clone https://huggingface.co/hhenryz/LOVA3-llava-v1.5-7b
 
 * Here we provide the training/Evaluation/Testing sets of EvalQABench under the folder `EvalQABench`.
 
-* Training data: Mixed_VQA_GenQA_EvalQA_1.5M.jsonl.
+* Training data: [Mixed_VQA_GenQA_EvalQA_1.5M.jsonl](https://huggingface.co/datasets/hhenryz/Mixed_VQA_GenQA_EvalQA_1.5M).
 
 ### Image Datasets
 
@@ -122,5 +122,5 @@ bash scripts/v1_5/finetune.sh
 
 ## Acknowledgement
 
-- [LLaVA](https://github.com/haotian-liu/LLaVA): the codebase we built upon. 
+- [LLaVA](https://github.com/haotian-liu/LLaVA): The codebase we built upon. 
 - [LAVIS](https://github.com/salesforce/LAVIS): We download some datasets from its scripts.
