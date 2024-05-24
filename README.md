@@ -47,6 +47,15 @@ conda activate LOVA
 pip install --upgrade pip
 pip install -e .
 ```
+## Model weight
+
+Pretrained weight: [LOVA3-llava-v1.5-7b](https://huggingface.co/hhenryz/LOVA3-llava-v1.5-7b)
+
+Download it by using following command:
+
+```
+git clone https://huggingface.co/hhenryz/LOVA3-llava-v1.5-7b
+```
 
 ## Training Data
 
@@ -69,9 +78,13 @@ Please download the images from constituting datasets:
 
 ## Evaluation
 
-The model weights are over 14GB, making it impractical to upload them in supplementary material. Instead, we will release them on HuggingFace.
+1. Download [LOVA3-llava-v1.5-7b](https://huggingface.co/hhenryz/LOVA3-llava-v1.5-7b) under the folder `checkpoints`.
 
-Take VizWiz as an example, run the following command with download our pretrained weight `LOVA3-llava-v1.5-7b`.
+2. Download the CLIP vision encoder [clip-vit-large-patch14-336](https://huggingface.co/openai/clip-vit-large-patch14-336) under the folder `checkpoints`.
+
+3. Run the evaluation scripts under the folder `scripts/v1_5/eval`. There are 12 multimodal datasets and benchmarks awaiting evaluation.
+
+Take VizWiz as an example, the running command is as follows:
 
 ```
 modelname=LOVA3-llava-v1.5-7b
@@ -99,7 +112,7 @@ python scripts/convert_vizwiz_for_submission.py \
 
 3. Download the model weight [vicuna-7b-v1.5](https://huggingface.co/lmsys/vicuna-7b-v1.5) under the folder `checkpoints`.
 
-4. Download the training data `Mixed_VQA_GenQA_EvalQA_1.5M.jsonl` under the folder `data`.
+4. Download the training data [Mixed_VQA_GenQA_EvalQA_1.5M.jsonl](https://huggingface.co/datasets/hhenryz/Mixed_VQA_GenQA_EvalQA_1.5M) under the folder `data`.
 
 5. Run the training script.
 
@@ -107,3 +120,7 @@ python scripts/convert_vizwiz_for_submission.py \
 bash scripts/v1_5/finetune.sh
 ```
 
+## Acknowledgement
+
+- [LLaVA](https://github.com/haotian-liu/LLaVA): the codebase we built upon. 
+- [LAVIS](https://github.com/salesforce/LAVIS): We download some datasets from its scripts.
