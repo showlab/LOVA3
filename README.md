@@ -59,9 +59,9 @@ git clone https://huggingface.co/hhenryz/LOVA3-llava-v1.5-7b
 
 ## Training Data
 
-We will release it on HuggingFace. 
+* Here we provide the training/Evaluation/Testing sets of EvalQABench under the folder `EvalQABench`.
 
-Here we provide the training/Evaluation/Testing sets under the folder `EvalQABench`.
+* Training data: Mixed_VQA_GenQA_EvalQA_1.5M.jsonl.
 
 ### Image Datasets
 
