@@ -122,6 +122,21 @@ python scripts/convert_vizwiz_for_submission.py \
 bash scripts/v1_5/finetune.sh
 ```
 
+## Citation
+
+If you find LOVA3 useful, please cite using this BibTeX:
+
+```bibtex
+@misc{zhao2024lova3,
+      title={LOVA3: Learning to Visual Question Answering, Asking and Assessment}, 
+      author={Henry Hengyuan Zhao and Pan Zhou and Difei Gao and Mike Zheng Shou},
+      year={2024},
+      eprint={2405.14974},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
+
 ## Acknowledgement
 
 - [LLaVA](https://github.com/haotian-liu/LLaVA): The codebase we built upon. 
