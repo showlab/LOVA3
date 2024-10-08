@@ -1,8 +1,39 @@
-# LOVA3: Learning to Visual Question Answering, Asking and Assessment
+<p align="center">
+
+  <h2 align="center">LOVA3: Learning to Visual Question Answering, Asking and Assessment</h2>
+  <p align="center">
+    <a href="https://scholar.google.com/citations?user=QLSk-6IAAAAJ&hl=zh-CN"><strong>Henry Hengyuan Zhao</strong></a>
+    ·
+    <a href="https://panzhous.github.io/"><strong>Pan Zhou</strong></a>
+    ·
+    <a href="https://scholar.google.com/citations?user=No9OsocAAAAJ&hl=en"><strong>Difei Gao</strong></a>
+    ·
+    <a href="https://sites.google.com/view/showlab"><strong>Mike Zheng Shou</strong></a>
+    <br>
+    <br>
+        <a href="https://arxiv.org/abs/2405.14974"><img src='https://img.shields.io/badge/arXiv-LOVA3-red' alt='Paper PDF'></a>
+        <a href='https://github.com/showlab/LOVA3'><img src='https://img.shields.io/badge/Project_Page-LOVA3-green' alt='Project Page'></a>
+    <br>
+    <b>Show Lab, National University of Singapore &nbsp; | &nbsp; Singapore Management University </b>
+  </p>
 
 ## Abstract
 
 Question answering, asking, and assessment are three innate human traits crucial for understanding the world and acquiring knowledge. By enhancing these capabilities, humans can more effectively utilize data, leading to better comprehension and learning outcomes. However, current Multimodal Large Language Models (MLLMs) primarily focus on question answering, often neglecting the full potential of questioning and assessment skills. In this study, we introduce LOVA3, an innovative framework named ``Learning tO Visual Question Answering, Asking and Assessment,'' designed to equip MLLMs with these additional capabilities. Our approach involves the creation of two supplementary training tasks GenQA and EvalQA, aiming at fostering the skills of asking and assessing questions in the context of images. To develop the questioning ability, we compile a comprehensive set of multimodal foundational tasks. For assessment, we introduce a new benchmark called EvalQABench, comprising 64,000 training samples (split evenly between positive and negative samples) and 5,000 testing samples. We posit that enhancing MLLMs with the capabilities to answer, ask, and assess questions will improve their multimodal comprehension and lead to better performance. We validate our hypothesis by training an MLLM using the LOVA3 framework and testing it on 10 multimodal benchmarks. The results demonstrate consistent performance improvements, thereby confirming the efficacy of our approach.
+
+## 📢 News
+* **[2024.9.26]** LOVA3 is accepted by NeurIPS 2024.
+* **[2024.5.24]** Release training, inference code and the EvalQA Benchmark. We are working to improve LOVA3, stay tuned!
+* **[2024.5.23]** Release LOVA3 paper.
+
+## To Do List
+
+### Doing
+
+- [ ] Using Gemini-1.5-Flash to creating EvalQA training data with larger size and higher quality.
+
+- [ ] Applying LOVA3 to samller language model Phi-1.5.
+
 
 ## 💡Key Contributions:
 
@@ -39,7 +70,7 @@ Illustration of the proposed pipeline for generating negative answers and feedba
 
 <p align="center"><img src="assets/result3.png" alt="pipeline"/></p>
 
-## Install
+## ⚒️ Install
 
 ```shell
 conda create -n LOVA python=3.10
@@ -76,7 +107,7 @@ Please download the images from constituting datasets:
 - LLaVA-Instruct: [huggingface](https://huggingface.co/datasets/liuhaotian/LLaVA-Instruct-150K)
 
 
-## Evaluation
+## 💃 Evaluation
 
 1. Download [LOVA3-llava-v1.5-7b](https://huggingface.co/hhenryz/LOVA3-llava-v1.5-7b) under the folder `checkpoints`.
 
@@ -120,8 +151,22 @@ python scripts/convert_vizwiz_for_submission.py \
 bash scripts/v1_5/finetune.sh
 ```
 
-
-## Acknowledgement
+## 🙏 Acknowledgement
 
 - [LLaVA](https://github.com/haotian-liu/LLaVA): The codebase we built upon. 
 - [LAVIS](https://github.com/salesforce/LAVIS): We download some datasets from its scripts.
+
+## 🎓 Citation
+
+If you find LOVA3 useful, please cite using this BibTeX:
+
+```bibtex
+@misc{zhao2024lova3,
+      title={LOVA3: Learning to Visual Question Answering, Asking and Assessment}, 
+      author={Henry Hengyuan Zhao and Pan Zhou and Difei Gao and Mike Zheng Shou},
+      year={2024},
+      eprint={2405.14974},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
