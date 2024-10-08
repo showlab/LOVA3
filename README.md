@@ -19,16 +19,14 @@
 
 ## Abstract
 
-Question answering, asking, and assessment are three innate human traits crucial for understanding the world and acquiring knowledge. By enhancing these capabilities, humans can more effectively utilize data, leading to better comprehension and learning outcomes. However, current Multimodal Large Language Models (MLLMs) primarily focus on question answering, often neglecting the full potential of questioning and assessment skills. In this study, we introduce LOVA3, an innovative framework named ``Learning tO Visual Question Answering, Asking and Assessment,'' designed to equip MLLMs with these additional capabilities. Our approach involves the creation of two supplementary training tasks GenQA and EvalQA, aiming at fostering the skills of asking and assessing questions in the context of images. To develop the questioning ability, we compile a comprehensive set of multimodal foundational tasks. For assessment, we introduce a new benchmark called EvalQABench, comprising 64,000 training samples (split evenly between positive and negative samples) and 5,000 testing samples. We posit that enhancing MLLMs with the capabilities to answer, ask, and assess questions will improve their multimodal comprehension and lead to better performance. We validate our hypothesis by training an MLLM using the LOVA3 framework and testing it on 10 multimodal benchmarks. The results demonstrate consistent performance improvements, thereby confirming the efficacy of our approach.
+Question answering, asking, and assessment are three innate human traits crucial for understanding the world and acquiring knowledge. By enhancing these capabilities, humans can more effectively utilize data, leading to better comprehension and learning outcomes. However, current Multimodal Large Language Models (MLLMs) primarily focus on question answering, often neglecting the full potential of questioning and assessment skills. In this study, we introduce LOVA3, an innovative framework named ``Learning tO Visual Question Answering, Asking and Assessment,'' designed to equip MLLMs with these additional capabilities.
 
 ## 📢 News
 * **[2024.9.26]** LOVA3 is accepted by NeurIPS 2024.
 * **[2024.5.24]** Release training, inference code and the EvalQA Benchmark. We are working to improve LOVA3, stay tuned!
 * **[2024.5.23]** Release LOVA3 paper.
 
-## To Do List
-
-### Doing
+## 🌺 To Do List
 
 - [ ] Using Gemini-1.5-Flash to creating EvalQA training data with larger size and higher quality.
 
@@ -37,18 +35,21 @@ Question answering, asking, and assessment are three innate human traits crucial
 
 ## 💡Key Contributions:
 
-* **LOVA3** - To the best of our knowledge, LOVA3 is the first effort to imbue the asking and assessment abilities in training a robust and intelligent MLLM.
-* **EvalQABench** - We build a new benchmark EvalQABench for the VQA evaluation as the first effort to advance the development of future research.
+* **LOVA3** - To the best of our knowledge, LOVA3 is the first effort to imbue the asking and assessment abilities in training a robust and intelligent MLLM, inspired from human learning mechanism.
+* **EvalQABench** - We build a new benchmark EvalQABench for the VQA correction evaluation as the first effort to advance the development of future research.
+
+* **Performance Improvement** - Training with our proposed LOVA3 framework, we observe consistent improvement on 10 representative benchmarks.
 
 
 **Usage and License Notices**: The data, and code is intended and licensed for research use only. They are also restricted to uses that follow the license agreement of LLaMA, Vicuna. The dataset is CC BY NC 4.0 (allowing only non-commercial use) and models trained using the dataset should not be used outside of research purposes. 
 
-## GenQA
+## GenQA: Learn to generate diverse VQA pairs for unlabeled images
+
 If one MLLM is able to successfully generate high-quality question-answer pairs based on visual input, it indicates a stronger problem-solving ability. To enable the MLLM to ask questions, we carefully define five main multimodal data types as listed in following table.
 <p align="center"><img src="./assets/GenQAData.png" alt="pipeline"/></p>
 
 
-## EvalQA
+## EvalQA: Learn to assess the correctness of VQA triplet
 
 ### Automatic Data Generation Pipeline
 Illustration of the proposed pipeline for generating negative answers and feedback.
