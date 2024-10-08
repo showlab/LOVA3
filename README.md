@@ -1,6 +1,6 @@
 <p align="center">
 
-  <h2 align="center">LOVA3: Learning to Visual Question Answering, Asking and Assessment</h2>
+  <h1 align="center">LOVA3: Learning to Visual Question Answering, Asking and Assessment</h1>
   <p align="center">
     <a href="https://scholar.google.com/citations?user=QLSk-6IAAAAJ&hl=zh-CN"><strong>Henry Hengyuan Zhao</strong></a>
     ·
@@ -16,6 +16,8 @@
     <br>
     <b>Show Lab, National University of Singapore &nbsp; | &nbsp; Singapore Management University </b>
   </p>
+
+</p>
 
 ## Abstract
 
