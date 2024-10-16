@@ -15,7 +15,6 @@
         <a href='https://zhaohengyuan1.github.io/lova3.github.io/'><img src='https://img.shields.io/badge/Project_Page-LOVA3-green' alt='Project Page'></a>
         <a href="https://huggingface.co/datasets/hhenryz/EvalQABench"><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-EvalQABench-blue' alt='EvalQABench'></a>
         <a href="https://huggingface.co/datasets/hhenryz/Mixed_VQA_GenQA_EvalQA_1.5M"><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-TrainingData-yellow' alt='Dataset'></a>
-        
     <br>
     <b>Show Lab, National University of Singapore &nbsp; | &nbsp; Singapore Management University </b>
   </p>
