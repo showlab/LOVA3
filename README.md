@@ -59,7 +59,7 @@ Illustration of the proposed pipeline for generating negative answers and feedba
 
 ### Selected examples from EvalQABench
 
-<p align="center"><img src="assets/samplesofevalqabench.png" alt="pipeline"/></p>
+<p align="center"><img src="assets/evalqa_visual.png" alt="pipeline"/></p>
 
 ### EvalQABench Results
 
