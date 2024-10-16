@@ -12,7 +12,8 @@
     <br>
     <br>
         <a href="https://arxiv.org/abs/2405.14974"><img src='https://img.shields.io/badge/arXiv-LOVA3-red' alt='Paper PDF'></a>
-        <a href='https://github.com/showlab/LOVA3'><img src='https://img.shields.io/badge/Project_Page-LOVA3-green' alt='Project Page'></a>
+        <a href='https://zhaohengyuan1.github.io/lova3.github.io/'><img src='https://img.shields.io/badge/Project_Page-LOVA3-green' alt='Project Page'></a>
+        <a href="https://huggingface.co/datasets/hhenryz/Mixed_VQA_GenQA_EvalQA_1.5M"><img src='https://img.shields.io/badge/Dataset-LOVA3-yellow' alt='Dataset'></a>
     <br>
     <b>Show Lab, National University of Singapore &nbsp; | &nbsp; Singapore Management University </b>
   </p>
