@@ -25,7 +25,7 @@
 Question answering, asking, and assessment are three innate human traits crucial for understanding the world and acquiring knowledge. By enhancing these capabilities, humans can more effectively utilize data, leading to better comprehension and learning outcomes. However, current Multimodal Large Language Models (MLLMs) primarily focus on question answering, often neglecting the full potential of questioning and assessment skills. In this study, we introduce LOVA3, an innovative framework named ``Learning tO Visual Question Answering, Asking and Assessment,'' designed to equip MLLMs with these additional capabilities.
 
 ## 📢 News
-* **[2024.10.16]** [Webpage is released.](https://zhaohengyuan1.github.io/lova3.github.io/)
+* **[2024.10.16]** [Webpage](https://zhaohengyuan1.github.io/lova3.github.io/) is released.
 * **[2024.9.26]** LOVA3 is accepted by NeurIPS 2024.
 * **[2024.5.24]** Release training, inference code and the EvalQA Benchmark. We are working to improve LOVA3, stay tuned!
 * **[2024.5.23]** Release LOVA3 paper.
