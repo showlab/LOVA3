@@ -27,11 +27,11 @@
 Question answering, asking, and assessment are three innate human traits crucial for understanding the world and acquiring knowledge. By enhancing these capabilities, humans can more effectively utilize data, leading to better comprehension and learning outcomes. However, current Multimodal Large Language Models (MLLMs) primarily focus on question answering, often neglecting the full potential of questioning and assessment skills. In this study, we introduce LOVA3, an innovative framework named "Learning tO Visual Question Answering, Asking and Assessment," designed to equip MLLMs with these additional capabilities.
 
 ## 📢 News
-* **[10/16/2024]** 🔥 We release the [webpage](https://zhaohengyuan1.github.io/lova3.github.io/).
-* **[09/26/2024]** 🔥 LOVA3 is accepted by NeurIPS 2024.
-* **[07/01/2024]** 🔥 Related work [Genixer](https://github.com/zhaohengyuan1/Genixer) is accepted by ECCV 2024.
-* **[05/24/2024]** 🔥 We release the code of LOVA3, the [EvalQABench](https://huggingface.co/datasets/hhenryz/EvalQABench), the training dataset [Mixed_VQA_GenQA_EvalQA_1.5M.jsonl](https://huggingface.co/datasets/hhenryz/Mixed_VQA_GenQA_EvalQA_1.5M), and the checkpoint [LOVA3-llava-v1.5-7b](https://huggingface.co/hhenryz/LOVA3-llava-v1.5-7b).
-* **[05/23/2024]** 🔥 We release the LOVA3 [paper](https://arxiv.org/abs/2405.14974).
+* [10/16/2024] 🔥 We release the [webpage](https://zhaohengyuan1.github.io/lova3.github.io/).
+* [09/26/2024] 🔥 LOVA3 is accepted by NeurIPS 2024.
+* [07/01/2024] 🔥 Related work [Genixer](https://github.com/zhaohengyuan1/Genixer) is accepted by ECCV 2024.
+* [05/24/2024] 🔥 We release the code of LOVA3, the [EvalQABench](https://huggingface.co/datasets/hhenryz/EvalQABench), the training dataset [Mixed_VQA_GenQA_EvalQA_1.5M.jsonl](https://huggingface.co/datasets/hhenryz/Mixed_VQA_GenQA_EvalQA_1.5M), and the checkpoint [LOVA3-llava-v1.5-7b](https://huggingface.co/hhenryz/LOVA3-llava-v1.5-7b).
+* [05/23/2024] 🔥 We release the LOVA3 [paper](https://arxiv.org/abs/2405.14974).
 
 ## 🌺 To Do List
 
