@@ -167,7 +167,7 @@ If you find LOVA3 useful, please cite using this BibTeX:
 @inproceedings{
 anonymous2024lova,
 title={{LOVA}3: Learning to Visual Question Answering, Asking and Assessment},
-author={Anonymous},
+author={{Zhao, Henry Hengyuan and Zhou, Pan and Gao, Difei and Shou, Mike Zheng},
 booktitle={The Thirty-eighth Annual Conference on Neural Information Processing Systems},
 year={2024},
 url={https://openreview.net/forum?id=vIOKLMl6wu}
