@@ -28,7 +28,7 @@ Question answering, asking, and assessment are three innate human traits crucial
 * **[2024.10.16]** [Webpage](https://zhaohengyuan1.github.io/lova3.github.io/) is released.
 * **[2024.9.26]** LOVA3 is accepted by NeurIPS 2024.
 * **[2024.5.24]** Release training, inference code and the EvalQA Benchmark. We are working to improve LOVA3, stay tuned!
-* **[2024.5.23]** Release LOVA3 paper.
+* **[2024.5.23]** Release LOVA3 [paper](https://arxiv.org/abs/2405.14974).
 
 ## 🌺 To Do List
 
