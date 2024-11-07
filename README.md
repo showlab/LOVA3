@@ -8,6 +8,8 @@
     ·
     <a href="https://scholar.google.com/citations?user=No9OsocAAAAJ&hl=en"><strong>Difei Gao</strong></a>
     ·
+    <a href="https://www.baizechen.site"><strong>Zechen Bai</strong></a>
+    ·
     <a href="https://sites.google.com/view/showlab"><strong>Mike Zheng Shou</strong></a>
     <br>
     <br>
@@ -171,7 +173,7 @@ If you find LOVA3 useful, please cite using this BibTeX:
 ```bibtex
 @misc{zhao2024lova3learningvisualquestion,
       title={LOVA3: Learning to Visual Question Answering, Asking and Assessment}, 
-      author={Henry Hengyuan Zhao and Pan Zhou and Difei Gao and Mike Zheng Shou},
+      author={Henry Hengyuan Zhao and Pan Zhou and Difei Gao and Zechen Bai and Mike Zheng Shou},
       year={2024},
       eprint={2405.14974},
       archivePrefix={arXiv},
