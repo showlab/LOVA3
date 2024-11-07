@@ -37,9 +37,9 @@ Question answering, asking, and assessment are three innate human traits crucial
 
 ## 🌺 To Do List
 
-- [ ] Using Gemini-1.5-Flash to creating EvalQA training data with larger size and higher quality.
+- [x] Using Gemini-1.5-Flash to creating EvalQA training data with larger size and higher quality.
 
-- [ ] Applying LOVA3 to samller language model Phi-1.5.
+- [x] Applying LOVA3 to samller language model Phi-1.5.
 
 
 ## 💡Key Contributions:
