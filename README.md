@@ -2,7 +2,7 @@
 
   <h1 align="center">LOVA3: Learning to Visual Question Answering, Asking and Assessment</h1>
   <p align="center">
-    <a href="https://scholar.google.com/citations?user=QLSk-6IAAAAJ&hl=zh-CN"><strong>Henry Hengyuan Zhao</strong></a>
+    <a href="https://zhaohengyuan1.github.io"><strong>Henry Hengyuan Zhao</strong></a>
     ·
     <a href="https://panzhous.github.io/"><strong>Pan Zhou</strong></a>
     ·
