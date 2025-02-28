@@ -32,7 +32,7 @@ Question answering, asking, and assessment are three innate human traits crucial
 - [x] Applying LOVA3 to samller language model Phi-1.5.
 
 
-## 💡Key Contributions:
+<!-- ## 💡Key Contributions:
 
 * **LOVA3** - To the best of our knowledge, LOVA3 is the first effort to imbue the asking and assessment abilities in training a robust and intelligent MLLM, inspired from human learning mechanism.
 * **EvalQABench** - We build a new benchmark EvalQABench for the VQA correction evaluation as the first effort to advance the development of future research.
@@ -68,7 +68,7 @@ Illustration of the proposed pipeline for generating negative answers and feedba
 
 <p align="center"><img src="assets/result2.png" alt="pipeline"/></p>
 
-<p align="center"><img src="assets/result3.png" alt="pipeline"/></p>
+<p align="center"><img src="assets/result3.png" alt="pipeline"/></p> -->
 
 ## ⚒️ Install
 
