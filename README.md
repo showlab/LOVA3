@@ -2,16 +2,6 @@
 
   <h1 align="center">LOVA3: Learning to Visual Question Answering, Asking and Assessment</h1>
   <p align="center">
-    <a href="https://zhaohengyuan1.github.io"><strong>Henry Hengyuan Zhao</strong></a>
-    ·
-    <a href="https://panzhous.github.io/"><strong>Pan Zhou</strong></a>
-    ·
-    <a href="https://scholar.google.com/citations?user=No9OsocAAAAJ&hl=en"><strong>Difei Gao</strong></a>
-    ·
-    <a href="https://www.baizechen.site"><strong>Zechen Bai</strong></a>
-    ·
-    <a href="https://sites.google.com/view/showlab"><strong>Mike Zheng Shou</strong></a>
-    <br>
     <br>
         <a href="https://arxiv.org/abs/2405.14974"><img src='https://img.shields.io/badge/arXiv-LOVA3-red' alt='Paper PDF'></a>
         <a href='https://zhaohengyuan1.github.io/lova3.github.io/'><img src='https://img.shields.io/badge/Project_Page-LOVA3-green' alt='Project Page'></a>
@@ -19,14 +9,14 @@
         <a href="https://huggingface.co/datasets/hhenryz/EvalQABench"><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-EvalQABench-yellow' alt='EvalQABench'></a>
         <a href="https://huggingface.co/datasets/hhenryz/Mixed_VQA_GenQA_EvalQA_1.5M"><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-TrainingData-yellow' alt='Dataset'></a>
     <br>
-    <b>Show Lab, National University of Singapore &nbsp; | &nbsp; Singapore Management University </b>
+    <b>TL;DR LOVA3 is a new training paradigm for advancing multimodal training by incorporating new capabilities: asking questions and assessing vqa triplets.</b>
   </p>
 
 </p>
 
-## Abstract
+<!-- ## Abstract
 
-Question answering, asking, and assessment are three innate human traits crucial for understanding the world and acquiring knowledge. By enhancing these capabilities, humans can more effectively utilize data, leading to better comprehension and learning outcomes. However, current Multimodal Large Language Models (MLLMs) primarily focus on question answering, often neglecting the full potential of questioning and assessment skills. In this study, we introduce LOVA3, an innovative framework named "Learning tO Visual Question Answering, Asking and Assessment," designed to equip MLLMs with these additional capabilities.
+Question answering, asking, and assessment are three innate human traits crucial for understanding the world and acquiring knowledge. By enhancing these capabilities, humans can more effectively utilize data, leading to better comprehension and learning outcomes. However, current Multimodal Large Language Models (MLLMs) primarily focus on question answering, often neglecting the full potential of questioning and assessment skills. In this study, we introduce LOVA3, an innovative framework named "Learning tO Visual Question Answering, Asking and Assessment," designed to equip MLLMs with these additional capabilities. -->
 
 ## 📢 News
 * [10/16/2024] 🔥 We release the [webpage](https://zhaohengyuan1.github.io/lova3.github.io/).
