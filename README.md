@@ -80,19 +80,25 @@ pip install -e .
 ```
 ## Model weight
 
-Pretrained weight: [LOVA3-llava-v1.5-7b](https://huggingface.co/hhenryz/LOVA3-llava-v1.5-7b)
+|Model Name|Size|Checkpoint|EvalQA Data Filtered By|
+|-|-|-|-|
+|LOVA3-llava-v1.5-7b|7B|[checkpoint](https://huggingface.co/hhenryz/LOVA3-llava-v1.5-7b) | Fuyu-8B |
+|LOVA3-llava-v1.5-7b-gemini|7B|[checkpoint](https://huggingface.co/ZechenBai/LOVA3-llava-v1.5-7b-gemini)| Gemini-1.5-Flash |
+|LOVA3-llava-v1.5-phi1.5-baseline|1.5B|[checkpoint](https://huggingface.co/ZechenBai/LOVA3-llava-v1.5-phi1.5-baseline)| - |
+|LOVA3-llava-v1.5-phi1.5-fuyu|1.5B|[checkpoint](https://huggingface.co/ZechenBai/LOVA3-llava-v1.5-phi1.5-fuyu) | Fuyu-8B |
+|LOVA3-llava-v1.5-phi1.5-gemini|1.5B|[checkpoint](https://huggingface.co/ZechenBai/LOVA3-llava-v1.5-phi1.5-gemini)| Gemini-1.5-Flash |
 
-Download it by using following command:
-
+Download from huggingface:
 ```
 git clone https://huggingface.co/hhenryz/LOVA3-llava-v1.5-7b
 ```
 
-## Training Data
+## Data
 
-* Here we provide the training/Evaluation/Testing sets of EvalQABench under the folder `EvalQABench`.
+### Data Json
+* Training Data: [Mixed_VQA_GenQA_EvalQA_1.5M.jsonl](https://huggingface.co/datasets/hhenryz/Mixed_VQA_GenQA_EvalQA_1.5M).
 
-* Training data: [Mixed_VQA_GenQA_EvalQA_1.5M.jsonl](https://huggingface.co/datasets/hhenryz/Mixed_VQA_GenQA_EvalQA_1.5M).
+* EvalQABench Data: [EvalQABench](https://huggingface.co/datasets/hhenryz/EvalQABench)
 
 ### Image Datasets
 
