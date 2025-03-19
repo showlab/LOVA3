@@ -9,7 +9,7 @@
         <a href="https://huggingface.co/datasets/hhenryz/EvalQABench"><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-EvalQABench-yellow' alt='EvalQABench'></a>
         <a href="https://huggingface.co/datasets/hhenryz/Mixed_VQA_GenQA_EvalQA_1.5M"><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-TrainingData-yellow' alt='Dataset'></a>
     <br>
-    <b>TL;DR LOVA3 is a new training paradigm for advancing multimodal training by incorporating new capabilities: asking questions and assessing vqa triplets.</b>
+    <b>TL;DR: No hyperparameter tuning and extra data annotation; LOVA3 is a new training paradigm for advancing multimodal training by incorporating new capabilities: asking questions and assessing vqa triplets.</b>
   </p>
 
 </p>
