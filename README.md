@@ -14,6 +14,10 @@
 
 </p>
 
+### Overall Performance Improvements
+<p align="center">
+  <img src="./assets/comprehensive_comparison.png">
+</p>
 <!-- ## Abstract
 
 Question answering, asking, and assessment are three innate human traits crucial for understanding the world and acquiring knowledge. By enhancing these capabilities, humans can more effectively utilize data, leading to better comprehension and learning outcomes. However, current Multimodal Large Language Models (MLLMs) primarily focus on question answering, often neglecting the full potential of questioning and assessment skills. In this study, we introduce LOVA3, an innovative framework named "Learning tO Visual Question Answering, Asking and Assessment," designed to equip MLLMs with these additional capabilities. -->
@@ -26,11 +30,11 @@ Question answering, asking, and assessment are three innate human traits crucial
 * [05/24/2024] We release the code of LOVA3, the [EvalQABench](https://huggingface.co/datasets/hhenryz/EvalQABench), the training dataset [Mixed_VQA_GenQA_EvalQA_1.5M.jsonl](https://huggingface.co/datasets/hhenryz/Mixed_VQA_GenQA_EvalQA_1.5M), and the checkpoint [LOVA3-llava-v1.5-7b](https://huggingface.co/hhenryz/LOVA3-llava-v1.5-7b).
 * [05/23/2024] We release the LOVA3 [paper](https://arxiv.org/abs/2405.14974).
 
-<!-- ## 🌺 To Do List
+## 🌺 To Do List
 
 - [x] Using Gemini-1.5-Flash to creating EvalQA training data with larger size and higher quality.
 
-- [x] Applying LOVA3 to samller language model Phi-1.5. -->
+- [x] Applying LOVA3 to samller language model Phi-1.5.
 
 
 <!-- ## 💡Key Contributions:
@@ -70,6 +74,19 @@ Illustration of the proposed pipeline for generating negative answers and feedba
 <p align="center"><img src="assets/result2.png" alt="pipeline"/></p>
 
 <p align="center"><img src="assets/result3.png" alt="pipeline"/></p> -->
+
+## 🚀 Quick Start
+
+If you are using the codebase **LLaVA**, just replace the `--data_path` with [Mixed_VQA_GenQA_EvalQA_1.5M.jsonl](https://huggingface.co/datasets/hhenryz/Mixed_VQA_GenQA_EvalQA_1.5M) to enjoy the performance improvement.
+
+```bash
+deepspeed llava/train/train_mem.py \
+    --deepspeed ./scripts/zero3.json \
+    --model_name_or_path checkpoints/vicuna-7b-v1.5 \
+    --version v1 \
+    --data_path ./data/Mixed_VQA_GenQA_EvalQA_1.5M.jsonl \
+    ...
+```
 
 ## ⚒️ Install
 
