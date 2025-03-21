@@ -75,7 +75,7 @@ Illustration of the proposed pipeline for generating negative answers and feedba
 
 <p align="center"><img src="assets/result3.png" alt="pipeline"/></p> -->
 
-## 🚀 Quick Start
+## 🚀 Quick Start (Training)
 
 If you are using the codebase [LLaVA](https://github.com/haotian-liu/LLaVA), just replace the `--data_path` with [Mixed_VQA_GenQA_EvalQA_1.5M.jsonl](https://huggingface.co/datasets/hhenryz/Mixed_VQA_GenQA_EvalQA_1.5M) to enjoy the performance improvement.
 
