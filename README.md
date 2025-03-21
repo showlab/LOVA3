@@ -77,7 +77,7 @@ Illustration of the proposed pipeline for generating negative answers and feedba
 
 ## 🚀 Quick Start
 
-If you are using the codebase **LLaVA**, just replace the `--data_path` with [Mixed_VQA_GenQA_EvalQA_1.5M.jsonl](https://huggingface.co/datasets/hhenryz/Mixed_VQA_GenQA_EvalQA_1.5M) to enjoy the performance improvement.
+If you are using the codebase [LLaVA](https://github.com/haotian-liu/LLaVA), just replace the `--data_path` with [Mixed_VQA_GenQA_EvalQA_1.5M.jsonl](https://huggingface.co/datasets/hhenryz/Mixed_VQA_GenQA_EvalQA_1.5M) to enjoy the performance improvement.
 
 ```bash
 deepspeed llava/train/train_mem.py \
@@ -88,7 +88,9 @@ deepspeed llava/train/train_mem.py \
     ...
 ```
 
-## ⚒️ Install
+## ⚒️ Install (Optional)
+
+If you have the python environments for [LLaVA](https://github.com/haotian-liu/LLaVA), please skip this step.
 
 ```shell
 conda create -n LOVA python=3.10
