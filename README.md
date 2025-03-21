@@ -18,9 +18,10 @@
 <p align="center">
   <img src="./assets/comprehensive_comparison.png">
 </p>
-<!-- ## Abstract
 
-Question answering, asking, and assessment are three innate human traits crucial for understanding the world and acquiring knowledge. By enhancing these capabilities, humans can more effectively utilize data, leading to better comprehension and learning outcomes. However, current Multimodal Large Language Models (MLLMs) primarily focus on question answering, often neglecting the full potential of questioning and assessment skills. In this study, we introduce LOVA3, an innovative framework named "Learning tO Visual Question Answering, Asking and Assessment," designed to equip MLLMs with these additional capabilities. -->
+## Abstract
+
+Question answering, asking, and assessment are three innate human traits crucial for understanding the world and acquiring knowledge. By enhancing these capabilities, humans can more effectively utilize data, leading to better comprehension and learning outcomes. However, current Multimodal Large Language Models (MLLMs) primarily focus on question answering, often neglecting the full potential of questioning and assessment skills. In this study, we introduce LOVA3, an innovative framework named "Learning tO Visual Question Answering, Asking and Assessment," designed to equip MLLMs with these additional capabilities.
 
 ## 📢 Update
 * [03/03/2025] We update four models in paper for testing, have fun!
