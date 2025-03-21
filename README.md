@@ -113,9 +113,9 @@ Download from huggingface:
 git clone https://huggingface.co/hhenryz/LOVA3-llava-v1.5-7b
 ```
 
-## Data
+## Data Preparation
 
-### Data Json
+### Download the data Json
 * Training Data: [Mixed_VQA_GenQA_EvalQA_1.5M.jsonl](https://huggingface.co/datasets/hhenryz/Mixed_VQA_GenQA_EvalQA_1.5M).
 
 * EvalQABench Data: [EvalQABench](https://huggingface.co/datasets/hhenryz/EvalQABench)
